@@ -7,7 +7,7 @@ from src.convertisseur import (
 )
 
 def test_0c_egale_32f():
-    assert celsius_vers_fahrenheit(0) == pytest.approx(30.0)
+    assert celsius_vers_fahrenheit(0) == pytest.approx(32.0)
 
 def test_100c_egale_212f():
     assert celsius_vers_fahrenheit(100) == pytest.approx(212.0)
